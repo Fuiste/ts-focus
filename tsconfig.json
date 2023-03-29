@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es2015",
+    "module": "commonjs",
+    "lib": ["es6", "es2015", "es2017", "es2019", "dom"],
+    "typeRoots": ["./node_modules/@types"],
+    "allowJs": false,
+    "declaration": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "noErrorTruncation": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
